@@ -14,11 +14,9 @@ if (numberInput.value  % 3 === 0) {
 
 
 function loopingArray(){
- for (let i = 0; i < numberInput.length; i++) {
-
-  let (numberInput* 5) = array[index]
-   console.log(array[index])
-  
+let numberlist= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ for (let i = 0; i < numberlist.length; i++) {
+ console.log (numberlist[i]*5)
 }
 }
 loopingArray()
@@ -40,13 +38,20 @@ for (let i=0; i<wordsArray.length; i++){
 
 function updatingTextContent(){
 
-    for (let i=0; i<6; i++)
+    for (let i=0; i<=5; i++)
     result.textContent += i 
 
 }
 updatingTextContent()
 
 
-
-
+function checkOddNumber(){
+  for (let i = 0; i <= 20; i++) {
+    if (numberInput.value % 2 === 0) {
+      console.log("This number is not odd");
+    } else {
+      console.log("This number is odd");
+    }
+  }
+}
 
